@@ -1,1 +1,1 @@
-List of some of my favorite movies to practie my CSS
+List of some of my favorite movies to practice my CSS
