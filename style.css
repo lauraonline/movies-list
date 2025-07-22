@@ -15,10 +15,13 @@ header a {
 .moviegrid {
     display: grid;
     grid-template-columns:repeat(12, 1fr);
-    gap:1rem;
+    gap:0.5rem;
 }
 .movie {
     border:hsl(194, 100%, 50%), solid, 4px;
+}
+.movie img {
+    width:30vw;
 }
 .movie-title {
     font-weight: 600;

@@ -1,0 +1,7 @@
+.poster img {
+    float:left;
+    margin-right: 1rem;
+}
+.cast {
+    columns: 2;
+}
