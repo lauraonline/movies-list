@@ -12,8 +12,13 @@ header a {
     color:hsl(278, 100%, 35%);
     text-decoration:none;
 }
+.moviegrid {
+    display: grid;
+    grid-template-columns:repeat(12, 1fr);
+    gap:1rem;
+}
 .movie {
-    background-color:hsl(194, 100%, 50%)
+    border:hsl(194, 100%, 50%), solid, 4px;
 }
 .movie-title {
     font-weight: 600;
