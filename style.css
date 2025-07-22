@@ -1,6 +1,6 @@
 * {
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color:#f6e7ff
+    background-color:#f6e5ff
 }
 header {
     display:block;
@@ -8,8 +8,12 @@ header {
     font-size: large;
     color: #10002b;
 }
+header a {
+    color:hsl(278, 100%, 35%);
+    text-decoration:none;
+}
 .movie {
-    background-color:#98a0ff
+    background-color:hsl(194, 100%, 50%)
 }
 .movie-title {
     font-weight: 600;
