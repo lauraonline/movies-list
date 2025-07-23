@@ -12,14 +12,16 @@ header a {
     color:hsl(278, 100%, 35%);
     text-decoration:none;
 }
-.moviegrid {
-    display: grid;
-    grid-template-columns:repeat(12, 1fr);
+.moviebox {
+    display: flex;
+    flex-flow:flow wrap;
+    align-items: start;
     gap:0.5rem;
 }
 .movie a {
     padding: 0.5rem;
-    display:block;
+    display:inline-block;
+    text-align: center;
 }
 .movie a:hover,
 .movie a:focus {
@@ -33,8 +35,6 @@ header a {
     font-size: larger;
     padding: 0; margin: 0;
     background:inherit;
-    text-align: center;
-    position:relative;
 }
 .popup a {
     padding:0.5rem;
