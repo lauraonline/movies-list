@@ -2,6 +2,10 @@
     float:left;
     margin-right: 1rem;
 }
-.cast {
+.cast ul {
+    font-size: larger;
     columns: 2;
+}
+.clear {
+    clear:both;
 }
