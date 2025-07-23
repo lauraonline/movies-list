@@ -17,16 +17,22 @@ header a {
     grid-template-columns:repeat(12, 1fr);
     gap:0.5rem;
 }
-.movie {
-    border:hsl(194, 100%, 50%), solid, 4px;
+.movie a {
+    padding: 0.5rem;
+    display:block;
+}
+.movie a:hover,
+.movie a:focus {
+    background-color:#f2d8ff
 }
 .movie img {
-    width:30vw;
+    width:8rem;
 }
 .movie-title {
     font-weight: 600;
     font-size: larger;
     padding: 0; margin: 0;
+    background:inherit;
 }
 a {
     color:inherit;
