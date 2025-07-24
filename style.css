@@ -1,6 +1,9 @@
 * {
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color:#f6e5ff
+}
+body {
+    min-height:100vh;
+    background-image: linear-gradient(#f2d8ff, #f7e5ff);
 }
 header {
     display:block;
