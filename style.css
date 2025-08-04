@@ -26,8 +26,7 @@ header a {
     display:inline-block;
     text-align: center;
 }
-.movie a:hover,
-.movie a:focus {
+.movie :is(a:hover, a:focus) {
     background-color:#f2d8ff
 }
 .movie img {
