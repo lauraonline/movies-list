@@ -46,11 +46,7 @@ header a {
     right:1dvw;
     font-weight: 600;
 }
-a {
+a:any-link {
     color:inherit;
     text-decoration: none;
-}
-a:visited {
-    color:inherit;
-    text-decoration:none
 }
